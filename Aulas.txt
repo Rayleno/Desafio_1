@@ -12,3 +12,50 @@ Unix
 -CD
 -LS OU CONTROL + L
 -RM -RF REMOVE DE FORMA RECURSIVA  E FORÇADA
+
+SHA1 - Chave composta por 40 caracteres.
+No terminal 
+
+openssl | sha1
+
+Cadeia de chaves
+
+1 TREE
+
+2 Readme             Rakefile                   Lib
+
+3 blob                   blob                              tree
+
+4 simplegit.rb
+
+5 blob
+
+
+#Chaves ssh e Tokens
+
+
+ssh -keygen -t ed25519 -C <email cadastrado no Github>
+Aguardar resultado, depois cadastrar senha.
+Acessar local com ID e senha publica
+Preencher alias da chave e mais a chave no campo abaixo
+No terminal ativar o agente
+eval $ (ssh -agent -S)
+Agente responde
+
+Obs.: CAT  - comando para mostrar conteúdo do arquivo
+PWD - mostrar o caminho do arquivo
+seguir....
+ssh - add <nome da chave privada>
+Entrar com senha
+- Clonando
+
+git clone endereço ssh  -pegar no repositório 
+yes
+
+#tokens
+
+No github acessar "developer settings" > personal acess tokens  > generate new tokens
+
+Nome para o Token
+Marcar a opção 'repo'
+Usar link URL (HTTP)
