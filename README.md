@@ -1,4 +1,4 @@
 # Desafio_1
-
-
-Trazer itens exigidos para primeira publicação.
+- Desafio de projeto em Git /Github;
+- Trazer de forma pública o andamento dos estudos;
+- Trazer ainda o itens exigido sendo minha primeira publicação.
